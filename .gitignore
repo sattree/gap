@@ -102,3 +102,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+externals/stanford-corenlp-full-2018-10-05/
+externals/data/*.tar.gz
+externals/data/glove*
+externals/data/model*
