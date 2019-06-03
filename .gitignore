@@ -103,6 +103,8 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+.DS_Store
+
 externals/stanford-corenlp-full-2018-10-05/
 externals/data/*.tar.gz
 externals/data/glove*
