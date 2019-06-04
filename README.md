@@ -124,7 +124,25 @@ NOTE: It is possible to run the pipeline end to end by using appropriate flags.
 
 usage.ipynb contains example usage of the pipeline.
 
+## Additional Resources
 
+### Visualization
+
+AllenNLP style visualizations for GAP, Stanford CoreNLP, Huggingface NeuralCoref and Lee et al. e2e-coref. The implementation is located in visualization/
+
+See jupyter notebook at https://www.kaggle.com/sattree/1-coref-visualization-jupyter-allenlp-stanford
+
+### GAP Heuristics
+
+An implementation of GAP heurisitcs can be found in models/heuristics/
+
+See jupyter notebook at https://www.kaggle.com/sattree/2-reproducing-gap-results
+
+### Pretrained Coref Models
+
+Unified interface for using pretrained coref models can be found in models/pretrained/
+
+See jupyter notebook at https://www.kaggle.com/sattree/3-a-better-baseline
 
 ## BibTex
 
