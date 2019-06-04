@@ -1,0 +1,2 @@
+class Coref:
+	pass
