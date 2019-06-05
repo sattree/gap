@@ -38,7 +38,7 @@ Note that this file was generated automatically and you may need to resolve cert
 
 ### Download
 
-The coref models need the following external data to be downloaded and placed in externals/data/
+Coref models need the following external data to be downloaded and placed in externals/data/
 
 ```
 curl -O https://nlp.stanford.edu/data/glove.840B.300d.zip
