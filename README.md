@@ -7,6 +7,13 @@ and the winning model in the Kaggle competition [Gendered Pronoun Resolution](ht
 
 *If you use this code for your research, please [cite the paper](#bibtex)*
 
+The code for ProBERT and GREP model architectures is located under models/gap/.
+
+<img align="right" width="300" src="https://github.com/sattree/gap/blob/master/paper/figures/grep.png">
+
+**Abstract**: The paper presents a strong set of results for resolving gendered ambiguous pronouns on the Gendered Ambiguous Pronouns shared task. The model presented draws upon the strengths of state-of-the-art language and coreference resolution models, and introduces a novel evidence-based deep learning architecture. Injecting evidence from the coreference models compliments the base architecture, and analysis shows that the model is not hindered by their weaknesses, specifically gender bias. The modularity and simplicity of the architecture make it very easy to extend for further improvement and applicable to other NLP problems. Evaluation on GAP test data results in a state-of-the-art performance at 92.5% F1 (gender bias of 0.97), edging closer to the human performance of 96.6%. The end-to-end solution placed 1st in the Kaggle competition, winning by a significant lead.
+
+
 
 ## Setup
 
@@ -51,7 +58,7 @@ Download pretrained models at https://drive.google.com/file/d/1fkifqZzdzsOEo0DXM
 Move the downloaded file to externals/data and extract: tar -xzvf e2e-coref.tgz
 ```
 
-Refer https://github.com/kentonl/e2e-coref for additional configuration if needed.
+Refer https://github.com/kentonl/e2e-coref for additional configuration, if needed.
 
 Stanford CoreNLP package needs to be downloaded and placed in externals/
 
