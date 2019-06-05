@@ -113,6 +113,7 @@ To reproduce kaggle submission results
 
 ```
 !python run.py --train 
+               --predict
                --kaggle 
                --preprocess_train 
                --preprocess_eval 
@@ -125,7 +126,7 @@ To reproduce kaggle submission results
                --sub_sample_path=sample_submission_stage_2.csv
 ```
 
-NOTE: It is possible to run the pipeline end to end by using appropriate flags.
+NOTE: It is possible to use appropriate flags and run the pipeline end to end in a single execution process. The above example runs the pipeline end-2-end. The only difference in --kaggle mode is that the model gets trained over all the GAP data and the predictions get averaged over multiple folds, seeds and language model versions.
 
 usage.ipynb contains example usage of the pipeline.
 
