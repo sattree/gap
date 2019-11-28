@@ -74,7 +74,7 @@ neuralcoref == 4.0
 
 # models/base/utils.py: 5
 # run.py: 26
-nltk == 3.4
+nltk == 3.4.5
 
 # models/apex/exec.py: 10
 # models/apex/gpr_features.py: 5
