@@ -151,6 +151,18 @@ Unified interface for using pretrained coref models can be found in models/pretr
 See jupyter notebook at https://www.kaggle.com/sattree/3-a-better-baseline
 
 ## BibTex
-
-
-
+```
+@inproceedings{attree-2019-gendered,
+    title = "Gendered Ambiguous Pronouns Shared Task: Boosting Model Confidence by Evidence Pooling",
+    author = "Attree, Sandeep",
+    booktitle = "Proceedings of the First Workshop on Gender Bias in Natural Language Processing",
+    month = aug,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/W19-3820",
+    doi = "10.18653/v1/W19-3820",
+    pages = "134--146",
+    abstract = "This paper presents a strong set of results for resolving gendered ambiguous pronouns on the Gendered Ambiguous Pronouns shared task. The model presented here draws upon the strengths of state-of-the-art language and coreference resolution models, and introduces a novel evidence-based deep learning architecture. Injecting evidence from the coreference models compliments the base architecture, and analysis shows that the model is not hindered by their weaknesses, specifically gender bias. The modularity and simplicity of the architecture make it very easy to extend for further improvement and applicable to other NLP problems. Evaluation on GAP test data results in a state-of-the-art performance at 92.5{\%} F1 (gender bias of 0.97), edging closer to the human performance of 96.6{\%}. The end-to-end solution presented here placed 1st in the Kaggle competition, winning by a significant lead.",
+}
+```
