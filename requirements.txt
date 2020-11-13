@@ -217,7 +217,7 @@ swiftcodegen == 0.3
 # models/apex_tf/mean_pool_model.py: 1
 # models/model.py: 1
 # models/pretrained/lee_et_al.py: 3
-tensorflow_gpu == 1.13.1
+tensorflow_gpu == 2.3.1
 
 # models/apex_tf/elmo_features.py: 2
 tensorflow_hub == 0.3.0
