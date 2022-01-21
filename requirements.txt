@@ -60,7 +60,7 @@ indras-net == 2.0.6
 # models/dataset.py: 5
 # run.py: 1
 # visualization/__init__.py: 1
-ipython == 7.3.0
+ipython == 7.16.3
 
 # models/apex_tf/fit_fold.py: 8,15
 # models/preprocessing/coref_extractor.py: 4
