@@ -104,7 +104,7 @@ nltk == 3.4.5
 # run.py: 10
 # score.py: 2
 # visualization/__init__.py: 5
-numpy == 1.16.2
+numpy == 1.22.0
 
 # models/apex/exec.py: 11
 # models/apex_tf/architectures/coarse_grain_model.py: 3
