@@ -64,7 +64,7 @@ ipython == 7.3.0
 
 # models/apex_tf/fit_fold.py: 8,15
 # models/preprocessing/coref_extractor.py: 4
-joblib == 0.13.2
+joblib == 1.2.0
 
 # models/base/utils.py: 6
 networkx == 2.2
